@@ -7,15 +7,15 @@ using namespace std;
 
 int main(int argc, char *argv[]){
 	
-	//não dá para usar o argv na IDE
+	//nÃ£o dÃ¡ para usar o argv na IDE
 	//string file1;
 	 // file1 = argv[1];
 	//string file2;
-	 // file1 = argv[2];
+	 // file2 = argv[2];
 	//string file3;
-	 // file1 = argv[3];
+	 // file3 = argv[3];
 	//string saida; 	
-	 // file1 = argv[4];
+	 // saida = argv[4];
 
 	list<string> lista;
 	
@@ -51,13 +51,13 @@ int main(int argc, char *argv[]){
 		int x = 0;
 		while( getline (infile,line)){
 			if (x != 0){
-				// 1    -    lê a linha e para quando chegar num espaço,  salva o valor encontrado como double
+				// 1    -    lÃª a linha e para quando chegar num espaÃ§o,  salva o valor encontrado como double
 				
-				//2     -    lê depois do espaço e para quando chegar em outro, salva o valor como double
+				//2     -    lÃª depois do espaÃ§o e para quando chegar em outro, salva o valor como double
 			
-				//3     -    subtrai o 2 do 1 e teremos o desvio padrão
+				//3     -    subtrai o 2 do 1 e teremos o desvio padrÃ£o
 				
-				//pega a string na posição x - 1 da lista e concatena com " 2 3", deixando espaço entre os numeros
+				//pega a string na posiÃ§Ã£o x - 1 da lista e concatena com " 2 3", deixando espaÃ§o entre os numeros
 			}
 			x += 1;
 		}
@@ -71,13 +71,13 @@ int main(int argc, char *argv[]){
 		int x = 0;
 		while( getline (infile,line)){
 			if (x != 0){
-				// 1    -    lê a linha e para quando chegar num espaço,  salva o valor encontrado como double
+				// 1    -    lÃª a linha e para quando chegar num espaÃ§o,  salva o valor encontrado como double
 				
-				//2     -    lê depois do espaço e para quando chegar em outro, salva o valor como double
+				//2     -    lÃª depois do espaÃ§o e para quando chegar em outro, salva o valor como double
 			
-				//3     -    subtrai o 2 do 1 e teremos o desvio padrão
+				//3     -    subtrai o 2 do 1 e teremos o desvio padrÃ£o
 				
-				//pega a string na posição x - 1 da lista e concatena com " 2 3", deixando espaço entre os numeros
+				//pega a string na posiÃ§Ã£o x - 1 da lista e concatena com " 2 3", deixando espaÃ§o entre os numeros
 			}
 			x += 1;
 		}
@@ -91,13 +91,13 @@ int main(int argc, char *argv[]){
 		int x = 0;
 		while( getline (infile,line)){
 			if (x != 0){
-				// 1    -    lê a linha e para quando chegar num espaço,  salva o valor encontrado como double
+				// 1    -    lÃª a linha e para quando chegar num espaÃ§o,  salva o valor encontrado como double
 				
-				//2     -    lê depois do espaço e para quando chegar em outro, salva o valor como double
+				//2     -    lÃª depois do espaÃ§o e para quando chegar em outro, salva o valor como double
 			
-				//3     -    subtrai o 2 do 1 e teremos o desvio padrão
+				//3     -    subtrai o 2 do 1 e teremos o desvio padrÃ£o
 				
-				//pega a string na posição x - 1 da lista e concatena com " 2 3", deixando espaço entre os numeros
+				//pega a string na posiÃ§Ã£o x - 1 da lista e concatena com " 2 3", deixando espaÃ§o entre os numeros
 			}
 			x += 1;
 		}
@@ -106,7 +106,7 @@ int main(int argc, char *argv[]){
 	else cout << "unable to open file";
 	
 	
-	//não sei como criar um novo .txt com o nome recebido da saida
+	//nÃ£o sei como criar um novo .txt com o nome recebido da saida
 	
 	//arquivo .txt de saida
 	ofstream myfile (saida.c_str());	
