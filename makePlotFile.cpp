@@ -39,6 +39,9 @@ int main(int argc, char *argv[]){
 	//eixo x - tamanho do vetor
 	int tamanho = 5000;
 	while(tamanho != 500000){
+		
+		//converter int para string
+		
 		lista.push_back(i);
 		i += 5000;
 	}
