@@ -61,7 +61,7 @@ int main(int argc, char *argv[]){
 			}
 			x += 1;
 		}
-		infile.close();
+		f1.close();
 	}
 	else cout << "unable to open file";
 	
@@ -81,7 +81,7 @@ int main(int argc, char *argv[]){
 			}
 			x += 1;
 		}
-		infile.close();
+		f2.close();
 	}
 	else cout << "unable to open file";
 	
@@ -101,7 +101,7 @@ int main(int argc, char *argv[]){
 			}
 			x += 1;
 		}
-		infile.close();
+		f3.close();
 	}
 	else cout << "unable to open file";
 	
